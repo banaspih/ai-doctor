@@ -8,7 +8,9 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "express": "^4.16.4",
     "json-server": "^0.17.0",
+    "python-shell": "^3.0.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"
   },
@@ -17,5 +19,18 @@
     "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0"
-  }
+  },
+  "description": "## Project setup ``` yarn install ```",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banaspih/ai-doctor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/banaspih/ai-doctor/issues"
+  },
+  "homepage": "https://github.com/banaspih/ai-doctor#readme"
 }

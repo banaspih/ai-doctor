@@ -244,7 +244,8 @@ export default {
       inform:{
         name:'',
        
-        symptom:[]
+        symptom:[],
+        diagnose:[]
       }
         
       ,

@@ -1,13 +1,91 @@
 {
   "projects": [
-    
     {
-      "name": "sa",
+      "name": "",
+      "qa": null,
+      "symptom": [
+        "obesity",
+        "family_history",
+        "history_of_alcohol_consumption",
+        "yellowing_of_eyes",
+        "malaise",
+        "swollen_blood_vessels"
+      ],
+      "id": 5
+    },
+    {
+      "name": "",
+      "qa": null,
       "symptom": [
         "itching",
-        "continuous_sneezing"
+        "joint_pain",
+        "shivering",
+        "mood_swings",
+        "obesity",
+        "altered_sensorium",
+        "prominent_veins_on_calf",
+        "history_of_alcohol_consumption",
+        "irritation_in_anus",
+        "swollen_blood_vessels"
+      ],
+      "id": 6
+    },
+    {
+      "name": "saa",
+      "symptom": [
+        "itching",
+        "cough",
+        "joint_pain",
+        "cramps",
+        "dischromic_patches",
+        "cold_hands_and_feets",
+        "blurred_and_distorted_vision",
+        "obesity",
+        "family_history"
       ],
       "id": 7
+    },
+    {
+      "name": "spp",
+      "symptom": [
+        "itching",
+        "high_fever",
+        "abdominal_pain",
+        "bruising",
+        "burning_micturition",
+        "muscle_pain",
+        "irritability"
+      ],
+      "id": 8
+    },
+    {
+      "name": "",
+      "qa": null,
+      "symptom": [
+        "itching",
+        "high_fever",
+        "abdominal_pain",
+        "bruising",
+        "burning_micturition",
+        "muscle_pain",
+        "irritability",
+        "history_of_alcohol_consumption",
+        "swollen_legs"
+      ],
+      "id": 9
+    },
+    {
+      "name": "sas",
+      "symptom": [
+        "muscle_wasting",
+        "cramps",
+        "malaise",
+        "irritability",
+        "muscle_pain",
+        "prominent_veins_on_calf",
+        "history_of_alcohol_consumption"
+      ],
+      "id": 10
     }
   ]
 }

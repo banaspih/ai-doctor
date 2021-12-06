@@ -7,7 +7,8 @@
         <p>สรุปอาการ</p>
         <p>มีอาการ</p>
         <p>{{inform.symptom}}</p>
-       
+        <p>มีโอกาสเสี่ยงเป็นโรคดังต่อไปนี้</p>
+       <p>{{inform.diagnose}}</p>
         <!-- <div :key="inform">
         <p>Summary</p>
         <br>
@@ -32,7 +33,8 @@ export default {
             reactionTime: 0,
             name: this.inform.name,
             qa: this.inform.qa,
-            symptom: this.inform.symptom
+            symptom: this.inform.symptom,
+            diagnose: this.inform.diagnose
         }
     },
     mounted(){
