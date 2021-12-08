@@ -11,7 +11,15 @@
         "malaise",
         "swollen_blood_vessels"
       ],
-      "id": 5
+      "id": 5,
+      "diagnose": [
+        "Varicose veins",
+        "Hepatitis B",
+        "Tuberculosis",
+        "Bronchial Asthma",
+        "Alcoholic hepatitis",
+        "Chronic cholestasis"
+      ]
     },
     {
       "name": "",
@@ -28,7 +36,15 @@
         "irritation_in_anus",
         "swollen_blood_vessels"
       ],
-      "id": 6
+      "id": 6,
+      "diagnose": [
+        "Varicose veins",
+        "Allergy",
+        "Paralysis (brain hemorrhage)",
+        "Fungal infection",
+        "Dimorphic hemmorhoids(piles)",
+        "Drug Reaction"
+      ]
     },
     {
       "name": "saa",
@@ -43,7 +59,15 @@
         "obesity",
         "family_history"
       ],
-      "id": 7
+      "id": 7,
+      "diagnose": [
+        "Bronchial Asthma",
+        "Varicose veins",
+        "Diabetes ",
+        "Fungal infection",
+        "GERD",
+        "Drug Reaction"
+      ]
     },
     {
       "name": "spp",
@@ -56,7 +80,15 @@
         "muscle_pain",
         "irritability"
       ],
-      "id": 8
+      "id": 8,
+      "diagnose": [
+        "Jaundice",
+        "Drug Reaction",
+        "Chronic cholestasis",
+        "Malaria",
+        "Chicken pox",
+        "Typhoid"
+      ]
     },
     {
       "name": "",
@@ -72,7 +104,15 @@
         "history_of_alcohol_consumption",
         "swollen_legs"
       ],
-      "id": 9
+      "id": 9,
+      "diagnose": [
+        "Jaundice",
+        "Drug Reaction",
+        "Alcoholic hepatitis",
+        "Chronic cholestasis",
+        "Malaria",
+        "Varicose veins"
+      ]
     },
     {
       "name": "sas",
@@ -85,7 +125,34 @@
         "prominent_veins_on_calf",
         "history_of_alcohol_consumption"
       ],
-      "id": 10
+      "id": 10,
+      "diagnose": [
+        "Varicose veins",
+        "AIDS",
+        "Common Cold",
+        "Alcoholic hepatitis",
+        "Malaria",
+        "Migraine"
+      ]
+    },
+    {
+      "name": "sa",
+      "symptom": [
+        "itching",
+        "muscle_pain",
+        "swollen_blood_vessels",
+        "history_of_alcohol_consumption",
+        "toxic_look_(typhos)"
+      ],
+      "id": 11,
+      "diagnose": [
+        "Typhoid",
+        "Fungal infection",
+        "Drug Reaction",
+        "Alcoholic hepatitis",
+        "Chronic cholestasis",
+        "Malaria"
+      ]
     }
   ]
 }

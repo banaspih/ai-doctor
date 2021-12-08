@@ -2,13 +2,16 @@
 
 <template>
 <div :key="inform">
+    <!-- <div :key="projects"> -->
     <div class="block" v-if="showBlock" @click="stopTimer" @submit.prevent="handleSubmit">
         <p>คุณ {{inform.name}} </p>
         <p>สรุปอาการ</p>
         <p>มีอาการ</p>
         <p>{{inform.symptom}}</p>
+        <!-- <p>{{projects.symptom}}</p> -->
         <p>มีโอกาสเสี่ยงเป็นโรคดังต่อไปนี้</p>
-       <p>{{inform.diagnose}}</p>
+        <p>{{inform.diagnose}}</p>
+       <!-- <p>{{projects.diagnose}}</p> -->
         <!-- <div :key="inform">
         <p>Summary</p>
         <br>
@@ -16,9 +19,11 @@
         </div> -->
     
     </div>
+    <!-- </div> -->
     <button @submit.prevent="handleSubmit">Save</button>
 </div>
 <p>name2:{{name}}</p>
+
 </template>
 
 <script>
@@ -26,6 +31,7 @@ import Home from "../views/Home.vue"
 export default {
     props: ['delay'],
     props: ['inform'],
+    // props:['projects'],
     data(){
         return{
             showBlock: false,
@@ -35,6 +41,7 @@ export default {
             qa: this.inform.qa,
             symptom: this.inform.symptom,
             diagnose: this.inform.diagnose
+            // diagnose: this.projects.diagnose
         }
     },
     mounted(){

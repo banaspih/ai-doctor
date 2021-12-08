@@ -238,6 +238,7 @@ import Block from '../components/Block.vue'
 
 export default {
   name: 'Home',
+  // props: project,
   components: {Block,},
   data(){
     return{
@@ -246,6 +247,7 @@ export default {
        
         symptom:[],
         diagnose:[]
+        // diagnose: this.project.diagnose
       }
         
       ,

@@ -4,7 +4,10 @@
      <p >ผลสรุป</p>
         <!-- <h3 @click="showDetails = !showDetails">{{ project.title }}</h3> -->
          <p>คุณ{{project.name}}</p>  
-          <p>มีอาการป่วยเป็นโรค {{ project.title }} </p> 
+          <p>มีอาการ</p>
+          <p>{{ project.symptom }} </p> 
+          <p>มีโอกาสเสี่ยงเป็นโรคดังต่อไปนี้</p>
+          <p>{{ project.diagnose }} </p> 
         
          
          <br>
