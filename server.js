@@ -1,4 +1,5 @@
 const express = require('express')
+
 const app = express()
 app.get('/',(req, res) => {
     const { spawn } = require('child_process');
@@ -38,29 +39,10 @@ const pythonPromise = () => {
 
 
 }
-const expres = require("express")
-const port = process.env.PORT 
-const app1 = express();
-app1.get(/.*/, function(req, res){
-    res.sendfile(__dirname + "/dist/index.html")
-
-});
-app1.listen(port)
-
-
-
 app.get("/:name", async(req, res)=> {
     const dataFromPython = await pythonPromise();
     res.send(dataFromPython + req.params.name)
 })
-
-const jsonServer = require('json-server');
-const server = jsonServer.create();
-const router = jsonServer.router('db.json');
-const middlewares =jsonServer.defaults();
-
-server.use(middlewares)
-server.use(router);
 
 
 
